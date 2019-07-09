@@ -1,0 +1,22 @@
+@mixin w768 {
+  @media only screen and (min-width: 768px) {
+    @content;
+  }
+}
+@mixin w320-767 {
+  @media only screen and (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin w320-1399 {
+  @media only screen and (max-width: 1399px) {
+    @content;
+  }
+}
+
+@mixin w1300 {
+  @media only screen and (min-width: 1300px) {
+    @content;
+  }
+}

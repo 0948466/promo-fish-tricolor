@@ -1,0 +1,23 @@
+body {
+  background: #E5E5E5;
+}
+
+h2 {
+  font-family: 'Gilroy Bold', sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+  color: #606060;
+  @include w320-767 {
+    font-size: 32px;
+    line-height: 39px;
+  }
+}
+
+a:hover {
+  filter: brightness(120%);
+}
+
+.link {
+  color: #3C6D9A;
+}
